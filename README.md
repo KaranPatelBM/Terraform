@@ -38,6 +38,6 @@ terraform plan
 terraform apply -auto-approve
 # Deploy React App to S3
 aws s3 sync dist/ s3://your-s3-bucket-name --delete
-# Outputs & Access
+# Outputs & Access (please replace with needed value)
 EC2 Public IP: http://<EC2-PUBLIC-IP>:8563
 S3 Website URL: http://your-s3-bucket-name.s3-website-region.amazonaws.com/
